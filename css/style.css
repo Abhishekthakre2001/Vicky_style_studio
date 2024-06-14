@@ -14,7 +14,9 @@
     z-index: 99;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -326,4 +328,11 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+/*  */
+@media (max-width: 768px) {
+   .logo{
+    display: none;
+   }
 }
